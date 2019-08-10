@@ -16,8 +16,6 @@
                     <th><a href="nuevo.php"><button type="button" class="btn btn-info">Nuevo</button></a></th>
                 </thead>
                 
-
-        /*php inicia aqui*/
         <?php
         include "php/conexion.php";
         $consulta="select * from USUARIOS";
@@ -31,7 +29,6 @@
             echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn btn-danger'>Eliminar</button></a> </td>";
         }
         ?>
-        /*php inicia aqui*/
         
         </table>
     </div>
