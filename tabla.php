@@ -17,7 +17,7 @@
                 </thead>
                 
 
-        //php inicia aqui
+        /*php inicia aqui*/
         <?php
         include "php/conexion.php";
         $consulta="select * from USUARIOS";
@@ -27,13 +27,12 @@
             echo "<td>"; echo $filas['U_ID'];echo "</td>";
             echo "<td>"; echo $filas['U_NOMBRE'];echo "</td>";
             echo "<td>"; echo $filas['U_MAIL'];echo "</td>";
-            echo "<td> <a href=''> </a></td>"; 
-            
-            
-            echo "<td>"; echo $filas['U_MAIL'];echo "</td>";
+            echo "<td>  <a href='modificar.php?U_ID=".$filas['U_ID']."'> <button type='button' class='btn btn-success'>Modificar</button> </a> </td>";
+            echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn btn-danger'>Eliminar</button></a> </td>";
         }
         ?>
-        //php termina aqui
+        /*php inicia aqui*/
+        
         </table>
     </div>
 </body>
