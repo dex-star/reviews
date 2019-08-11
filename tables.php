@@ -111,7 +111,7 @@
               <div class="col-lg-12 mb-4">
                 <div class="card">
                   <div class="card-header">
-                    <h6 class="text-uppercase mb-0">Basic Table</h6>
+                    <h6 class="text-uppercase mb-0">USUARIOS</h6>
                   </div>
                   <div class="card-body">
                     <table class="table card-text">
@@ -136,6 +136,7 @@
                           echo "<td>"; echo $filas['U_MAIL'];echo "</td>";
                           echo "<td>  <a href='modificar.php?U_ID=".$filas['U_ID']."'> <button type='button' class='btn btn-outline-success btn-sm'>Modificar</button> </a> </td>";
                           echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn btn-outline-danger btn-sm'>Eliminar</button></a> </td>";
+                          echo "<td> <a href='password.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn btn-outline-warning btn-sm'>Actualizar</button></a> </td>";
                           echo "</tr>";
                         }
                         ?>
