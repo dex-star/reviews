@@ -116,7 +116,7 @@
                   <div class="card-body">
                     <table class="table card-text">
                       <thead>
-                        <div class="float-right"><tr><th><h6>Agregar usuario</h6></th><th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th></tr></div>
+                        <div class="float-right"><tr><th><h6>Agregar usuario</h6></th><th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm float-right">Nuevo</button></a></th></tr></div>
                         <tr>
                           <th>#</th>
                           <th>Nombre</th>
