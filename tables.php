@@ -120,12 +120,12 @@
                         <h6>Agregar usuario</h6>
                           <a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a>
                         </div></div>
-                        <tr><th></th><th></th><th></th><th></th><th><h6>Agregar usuario</h6></th><th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th></tr>
+                        <tr><th colspan="6"><h6>Agregar usuario</h6><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th></tr>
                         <tr>
                           <th>#</th>
                           <th>Nombre</th>
                           <th>Email</th>
-                          <th colspan="3">Actualizardfmnjidfshgiurefdhjngjufdhjgjuihnfdjuignjifdshngjionfdsjginfjignjiu</th>
+                          <th class="text-center" colspan="3">Administrar</th>
 
                         </tr>
                       </thead>
