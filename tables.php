@@ -116,7 +116,7 @@
                   <div class="card-body">
                     <table class="table card-text">
                       <thead>
-                        <tr><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></tr>
+                        <tr><th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th></tr>
                         <tr>
                           <th>#</th>
                           <th>Nombre</th>
