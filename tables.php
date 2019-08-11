@@ -120,7 +120,7 @@
                           <th>#</th>
                           <th>Nombre</th>
                           <th>Email</th>
-                          <th><a href="nuevo.php"><button type="button" class="btn btn-info">Nuevo</button></a></th>
+                          <th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th>
                         </tr>
                       </thead>
                       <tbody>
@@ -134,14 +134,14 @@
                           echo "<td>"; echo $filas['U_ID'];echo "</td>";
                           echo "<td>"; echo $filas['U_NOMBRE'];echo "</td>";
                           echo "<td>"; echo $filas['U_MAIL'];echo "</td>";
-                          echo "<td>  <a href='modificar.php?U_ID=".$filas['U_ID']."'> <button type='button' class='btn btn-success'>Modificar</button> </a> </td>";
-                          echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn btn-danger'>Eliminar</button></a> </td>";
+                          echo "<td>  <a href='modificar.php?U_ID=".$filas['U_ID']."'> <button type='button' class='btn btn-outline-success btn-sm'>Modificar</button> </a> </td>";
+                          echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn-outline-danger btn-sm'>Eliminar</button></a> </td>";
                           echo "</tr>";
                         }
                         ?>
 
 
-                      
+
 
 
 
