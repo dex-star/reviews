@@ -116,12 +116,11 @@
                   <div class="card-body">
                     <table class="table card-text">
                       <thead>
-                        <tr><th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th></tr>
+                        <a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a>
                         <tr>
                           <th>#</th>
                           <th>Nombre</th>
                           <th>Email</th>
-                          <th><a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a></th>
                         </tr>
                       </thead>
                       <tbody>
