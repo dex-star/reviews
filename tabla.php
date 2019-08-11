@@ -17,7 +17,7 @@
       </thead>
 
       <?php
-      include "conexion.php";
+      include "../conexion.php";
       $consulta="SELECT * FROM USUARIOS";
       $resultado=$conexion->query($consulta) or die (mysqli_error($conexion));
       while($filas=$resultado->fetch_assoc()){
