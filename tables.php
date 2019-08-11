@@ -125,8 +125,8 @@
                           <th>#</th>
                           <th>Nombre</th>
                           <th>Email</th>
-                          <th colspan="3">Actualizar</th>
-                        
+                          <th colspan="3">Actualizardfmnjidfshgiurefdhjngjufdhjgjuihnfdjuignjifdshngjionfdsjginfjignjiu</th>
+
                         </tr>
                       </thead>
                       <tbody>
