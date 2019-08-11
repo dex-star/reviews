@@ -125,9 +125,8 @@
                           <th>#</th>
                           <th>Nombre</th>
                           <th>Email</th>
-                          <th>Actualizar</th>
-                          <th>Eliminar</th>
-                          <th>Contraseña</th>
+                          <th colspan="3">Actualizar</th>
+                        
                         </tr>
                       </thead>
                       <tbody>
