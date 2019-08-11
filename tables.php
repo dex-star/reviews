@@ -116,7 +116,7 @@
                   <div class="card-body">
                     <table class="table card-text">
                       <thead>
-                        <div class="row"><div class="col align-self-center">
+                        <div class="row "><div class="col-12 align-self-center">
                         <h6>Agregar usuario</h6>
                           <a href="nuevo.php"><button type="button" class="btn btn-outline-primary btn-sm">Nuevo</button></a>
                         </div></div>
