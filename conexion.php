@@ -6,6 +6,6 @@
 		printf("Fallo la conexion");
 	}
 	else {
-		//printf("Estas conectado");
+		printf("Estas conectado");
 	}
 ?>
