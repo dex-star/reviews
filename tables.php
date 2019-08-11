@@ -135,7 +135,7 @@
                           echo "<td>"; echo $filas['U_NOMBRE'];echo "</td>";
                           echo "<td>"; echo $filas['U_MAIL'];echo "</td>";
                           echo "<td>  <a href='modificar.php?U_ID=".$filas['U_ID']."'> <button type='button' class='btn btn-outline-success btn-sm'>Modificar</button> </a> </td>";
-                          echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn-outline-danger btn-sm'>Eliminar</button></a> </td>";
+                          echo "<td> <a href='eliminar.php?U_ID=".$filas['U_ID']."''><button type='button' class='btn btn-outline-danger btn-sm'>Eliminar</button></a> </td>";
                           echo "</tr>";
                         }
                         ?>
