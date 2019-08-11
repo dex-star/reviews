@@ -108,7 +108,7 @@
         <div class="container-fluid px-xl-5">
           <section class="py-5">
             <div class="row">
-              <div class="col-lg-6 mb-4">
+              <div class="col-lg-12 mb-4">
                 <div class="card">
                   <div class="card-header">
                     <h6 class="text-uppercase mb-0">Basic Table</h6>
